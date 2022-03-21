@@ -10,6 +10,7 @@ body {
     background-color: #1F2937;
     display: flex;
     flex-direction: column;
+    
 }
 .header {
     display: flex;
@@ -66,7 +67,7 @@ p {
 
 h1 {
     font-size: 48px;
-    font-weight: bolder;
+    font-weight: 800;
     margin: 0;
 }
 
@@ -81,7 +82,7 @@ button {
 
 img {
     width: 600px;
-
+    border-radius: 25px;
 
 }
 
@@ -90,21 +91,22 @@ img {
     display: flex;
     flex-direction: column;
     align-items: center;
-    
+    padding: 75px;
     
 }
 
 .section-two h2{
     font-size: 36px;
-    font-weight: bolder;
+    font-weight: 800;
     color: #1F2937;
+    margin: 0;
 }
 
 .boxes {
     display: flex;
     justify-content: center;
     gap: 50px;
-    margin-bottom: 50px;
+    
 }
 
 .boxes p {
@@ -124,4 +126,31 @@ img {
     width: 200px;
     border: 3px solid #3882F6;
     border-radius: 25px;
+}
+
+.section-three{
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    align-items: center;
+    padding: 75px;
+    
+
+}
+
+.quote{
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    width: 1200px;
+    margin: 0;
+}
+
+.attribution{
+    color: #1F2937;
+    font-size: 20px;
+    font-weight: 800;
+    display: flex;
+    width: 1200px;
+    justify-content: flex-end;
 }
