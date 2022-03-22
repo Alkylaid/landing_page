@@ -10,6 +10,7 @@ body {
     background-color: #1F2937;
     display: flex;
     flex-direction: column;
+   
     
 }
 .header {
@@ -52,7 +53,6 @@ a {
     width: 600px;
     display: flex;
     flex-direction: column;
-    
     align-items: flex-start;
 
 }
@@ -93,7 +93,7 @@ img {
     flex-direction: column;
     align-items: center;
     padding: 75px;
-    
+
 }
 
 .section-two h2{
@@ -135,7 +135,7 @@ img {
     background-color: #E5E7EB;
     align-items: center;
     padding: 75px;
-    
+ 
 
 }
 
@@ -162,6 +162,7 @@ img {
     align-items: center;
     justify-content: center;
     padding: 75px;
+    flex: 1;
 }
 
 .action-box{
@@ -192,4 +193,11 @@ img {
 
 .action-box .sign-up-button{
     border: 2px solid white;
+}
+
+.footer{
+    display: flex;
+    background-color: #1F2937;
+    justify-content: center;
+    
 }
